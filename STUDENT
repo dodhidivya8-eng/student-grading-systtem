@@ -1,0 +1,38 @@
+A beginner-friendly Python project that takes student details, calculates total marks and percentage, and assigns grades using if-elif-else statements.
+# This program takes a student's name, calculates total marks and percentage, and assigns a grade based on the percentage.
+# My code:
+
+print("Student Grade Management")
+
+name = input("Enter the name: ")
+print("Name:", name)
+
+marks = [34, 56, 78]
+
+total = sum(marks)
+print("Total marks:", total)
+
+percentage = (total / 300) * 100
+print("Percentage:", percentage)
+
+if percentage >= 90:
+    print("Grade A")
+elif percentage >= 75:
+    print("Grade B")
+elif percentage >= 60:
+    print("Grade C")
+elif percentage >= 35:
+    print("Grade D")
+else:
+    print("Fail")
+
+print("Thank you")
+
+OUTPUT:
+Student Grade Management
+Enter the name: sony
+Name: sony
+Total marks: 168
+Percentage: 56.00000000000001
+Grade D
+Thank you
